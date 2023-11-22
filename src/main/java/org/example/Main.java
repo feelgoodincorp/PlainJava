@@ -9,6 +9,6 @@ public class Main {
         SubsequenceFinder handler = new SubsequenceFinder();
 
         List<Integer> result = handler.findHighest(numList);
-        System.out.println(result);
+        System.out.println(result.size());
     }
 }
